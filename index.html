@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Sample Masala Company — Pure, Authentic Indian Spices sourced from the finest farms. Experience the richness of traditional flavors with our premium masala blends." />
+    <meta name="keywords"
+        content="masala, spices, Indian spices, garam masala, turmeric, chili powder, authentic flavors" />
+    <meta property="og:title" content="Sample Masala Company | Pure & Authentic Indian Spices" />
+    <meta property="og:description"
+        content="Discover the finest premium masala blends crafted with generations of tradition." />
+    <title>Sample Masala Company | Pure & Authentic Indian Spices</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌶️</text></svg>" />
+</head>
+
+<body>
+
+    <!-- ====== NAVBAR ====== -->
+    <nav id="navbar">
+        <div class="container">
+            <div class="nav-inner">
+                <a href="#hero" class="nav-logo">
+                    <div class="nav-logo-icon">🌶️</div>
+                    <div class="nav-logo-text">
+                        <span>Sample Masala</span>
+                        <span>Company</span>
+                    </div>
+                </a>
+
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#why-us">Why Us</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#testimonials">Reviews</a></li>
+                </ul>
+
+                <div class="nav-cta">
+                    <a href="#products" class="btn btn-primary">Shop Now</a>
+                </div>
+
+                <button class="hamburger" id="hamburger" aria-label="Open menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu" role="dialog" aria-modal="true">
+        <button class="mobile-close" id="mobile-close" aria-label="Close menu">✕</button>
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+        <a href="#why-us">Why Us</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#testimonials">Reviews</a>
+        <a href="#products" class="btn btn-primary" style="margin-top:8px;">Shop Now</a>
+    </div>
+
+    <!-- ====== HERO ====== -->
+    <section id="hero">
+        <div class="hero-bg-pattern"></div>
+        <div class="hero-floating-spice"></div>
+        <div class="hero-floating-spice"></div>
+
+        <div class="container">
+            <div class="hero-inner">
+                <!-- LEFT CONTENT -->
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <span class="hero-badge-dot"></span>
+                        Authentically Crafted Since 1985
+                    </div>
+
+                    <h1 class="hero-title">
+                        The Soul of<br />
+                        <span class="highlight">Indian Spices,</span><br />
+                        <span class="red-highlight">Redefined</span>
+                    </h1>
+
+                    <p class="hero-desc">
+                        Handpicked from the finest farms across India, our masala blends carry the essence of
+                        generations-old recipes — pure, bold, and unforgettable.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#products" class="btn btn-primary">
+                            🛒 Explore Products
+                        </a>
+                        <a href="#about" class="btn btn-outline">
+                            Our Story →
+                        </a>
+                    </div>
+
+                    <div class="hero-stats">
+                        <div class="hero-stat-item">
+                            <span class="hero-stat-num">50+</span>
+                            <span class="hero-stat-label">Spice Varieties</span>
+                        </div>
+                        <div class="hero-stat-item">
+                            <span class="hero-stat-num">40</span>
+                            <span class="hero-stat-label">Years of Legacy</span>
+                        </div>
+                        <div class="hero-stat-item">
+                            <span class="hero-stat-num">1M+</span>
+                            <span class="hero-stat-label">Happy Homes</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RIGHT IMAGE -->
+                <div class="hero-image-wrapper">
+                    <img class="hero-img-main"
+                        src="https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=800&q=85&auto=format&fit=crop"
+                        alt="Premium Indian spices flat lay" loading="eager" />
+                    <div class="hero-img-badge">
+                        <div class="hero-img-badge-icon">🏆</div>
+                        <div class="hero-img-badge-text">
+                            <strong>Award Winning</strong>
+                            <span>Best Masala Brand 2024</span>
+                        </div>
+                    </div>
+                    <div class="hero-img-badge2">
+                        <strong>100%</strong>
+                        <span>Natural &<br />Pure</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== MARQUEE RIBBON ====== -->
+    <div class="marquee-section">
+        <div class="marquee-track">
+            <!-- Duplicated for seamless loop -->
+            <div class="marquee-item">🌶️ Premium Quality</div>
+            <div class="marquee-item"><span class="marquee-dot"></span></div>
+            <div class="marquee-item">🌿 100% Natural</div>
+            <div class="marquee-item"><span class="marquee-dot"></span></div>
+            <div class="marquee-item">🏆 Award Winning</div>
+            <div class="marquee-item"><span class="marquee-dot"></span></div>
+            <div class="marquee-item">✈️ Pan India Delivery</div>
+            <div class="marquee-item"><span class="marquee-dot"></span></div>
+            <div class="marquee-item">🌾 Farm to Kitchen</div>
+            <div class="marquee-item"><span class="marquee-dot"></span></div>
+            <div class="marquee-item">🔬 Lab Tested</div>
+            <div class="marquee-item"><span class="marquee-dot"></span></div>
+            <div class="marquee-item">🌶️ Premium Quality</div>
+            <div class="marquee-item"><span class="marquee-dot"></span></div>
+            <div class="marquee-item">🌿 100% Natural</div>
+            <div class="marquee-item"><span class="marquee-dot"></span></div>
+            <div class="marquee-item">🏆 Award Winning</div>
+            <div class="marquee-item"><span class="marquee-dot"></span></div>
+            <div class="marquee-item">✈️ Pan India Delivery</div>
+            <div class="marquee-item"><span class="marquee-dot"></span></div>
+            <div class="marquee-item">🌾 Farm to Kitchen</div>
+            <div class="marquee-item"><span class="marquee-dot"></span></div>
+            <div class="marquee-item">🔬 Lab Tested</div>
+            <div class="marquee-item"><span class="marquee-dot"></span></div>
+        </div>
+    </div>
+
+    <!-- ====== ABOUT ====== -->
+    <section id="about">
+        <div class="container">
+            <div class="about-inner">
+                <!-- LEFT IMAGE -->
+                <div class="about-image-wrapper reveal-left">
+                    <img class="about-img-main"
+                        src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=700&q=85&auto=format&fit=crop"
+                        alt="Traditional Indian spice heritage" />
+                    <div class="about-img-badge">
+                        <strong>40+</strong>
+                        <span>Years of<br />Excellence</span>
+                    </div>
+                </div>
+
+                <!-- RIGHT CONTENT -->
+                <div class="about-content reveal-right">
+                    <div class="section-tag">Our Story</div>
+                    <h2 class="section-title">
+                        Rooted in Tradition,<br />
+                        Blended with <span style="color:var(--gold);font-style:italic;">Passion</span>
+                    </h2>
+                    <p class="section-subtitle">
+                        Since 1985, Sample Masala Company has been bringing the authentic taste of India's finest spices
+                        to kitchens across the country. From the sun-soaked fields of Rajasthan to the spice gardens of
+                        Kerala — every blend tells a story.
+                    </p>
+
+                    <div class="about-features">
+                        <div class="about-feature-item reveal reveal-delay-1">
+                            <div class="about-feature-icon">🌾</div>
+                            <div class="about-feature-text">
+                                <strong>Farm-Direct Sourcing</strong>
+                                <p>We partner directly with over 200 farmers across India to ensure only the finest,
+                                    freshest spices reach your kitchen.</p>
+                            </div>
+                        </div>
+                        <div class="about-feature-item reveal reveal-delay-2">
+                            <div class="about-feature-icon">🔬</div>
+                            <div class="about-feature-text">
+                                <strong>Lab-Tested Purity</strong>
+                                <p>Every single batch is tested in our certified lab for purity, color integrity, and
+                                    aroma quality before packaging.</p>
+                            </div>
+                        </div>
+                        <div class="about-feature-item reveal reveal-delay-3">
+                            <div class="about-feature-icon">👨‍🍳</div>
+                            <div class="about-feature-text">
+                                <strong>Chef Curated Blends</strong>
+                                <p>Our masala recipes are crafted in collaboration with Michelin-starred chefs and
+                                    traditional home cooks alike.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== PRODUCTS ====== -->
+    <section id="products">
+        <div class="container">
+            <div class="products-header reveal">
+                <div class="section-tag">Our Products</div>
+                <h2 class="section-title">Flavors That Tell Stories</h2>
+                <p class="section-subtitle">
+                    Explore our carefully curated range of spices and masala blends — each crafted to elevate every dish
+                    you make.
+                </p>
+            </div>
+
+            <div class="products-grid">
+                <!-- Card 1 -->
+                <div class="product-card reveal">
+                    <div class="product-card-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1615485500834-bc10199bc727?w=500&q=80&auto=format&fit=crop"
+                            alt="Garam Masala" />
+                        <span class="product-card-badge">Bestseller</span>
+                    </div>
+                    <div class="product-card-body">
+                        <div class="product-card-tag">Signature Blend</div>
+                        <div class="product-card-name">Royal Garam Masala</div>
+                        <div class="product-card-desc">A rich, aromatic blend of 22 whole spices slow-roasted and ground
+                            to perfection. The heart of North Indian cuisine.</div>
+                        <div class="product-card-footer">
+                            <div class="product-card-price">₹149 <span>/ 100g</span></div>
+                            <button class="product-add-btn" aria-label="Add to cart">+</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="product-card reveal reveal-delay-1">
+                    <div class="product-card-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1589592576551-d38cbaab00f8?w=500&q=80&auto=format&fit=crop"
+                            alt="Turmeric Powder" />
+                        <span class="product-card-badge">Pure</span>
+                    </div>
+                    <div class="product-card-body">
+                        <div class="product-card-tag">Single Origin</div>
+                        <div class="product-card-name">Lakadong Turmeric</div>
+                        <div class="product-card-desc">Sourced from the legendary Lakadong region of Meghalaya, with the
+                            highest curcumin content (7-12%) in the world.</div>
+                        <div class="product-card-footer">
+                            <div class="product-card-price">₹129 <span>/ 200g</span></div>
+                            <button class="product-add-btn" aria-label="Add to cart">+</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="product-card reveal reveal-delay-2">
+                    <div class="product-card-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1630893539073-cb2c1e7ef3e1?w=500&q=80&auto=format&fit=crop"
+                            alt="Chili Powder" />
+                        <span class="product-card-badge">Hot Pick</span>
+                    </div>
+                    <div class="product-card-body">
+                        <div class="product-card-tag">Andhra Special</div>
+                        <div class="product-card-name">Kashmiri Chili Powder</div>
+                        <div class="product-card-desc">Brilliant crimson red with a mild heat and deep colour. Perfect
+                            for curries, tandoori dishes, and marinades.</div>
+                        <div class="product-card-footer">
+                            <div class="product-card-price">₹119 <span>/ 200g</span></div>
+                            <button class="product-add-btn" aria-label="Add to cart">+</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="product-card reveal reveal-delay-3">
+                    <div class="product-card-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=500&q=80&auto=format&fit=crop"
+                            alt="Biryani Masala" />
+                    </div>
+                    <div class="product-card-body">
+                        <div class="product-card-tag">Chef's Choice</div>
+                        <div class="product-card-name">Hyderabadi Biryani Masala</div>
+                        <div class="product-card-desc">A fragrant blend of saffron-kissed spices to make the most
+                            authentic Hyderabadi dum biryani at home.</div>
+                        <div class="product-card-footer">
+                            <div class="product-card-price">₹199 <span>/ 80g</span></div>
+                            <button class="product-add-btn" aria-label="Add to cart">+</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="product-card reveal reveal-delay-4">
+                    <div class="product-card-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1599789197514-47270cd526b4?w=500&q=80&auto=format&fit=crop"
+                            alt="Coriander Cumin" />
+                    </div>
+                    <div class="product-card-body">
+                        <div class="product-card-tag">Kitchen Staple</div>
+                        <div class="product-card-name">Dhania-Jeera Blend</div>
+                        <div class="product-card-desc">The perfect 60:40 ratio of premium Rajasthani coriander and
+                            aromatic cumin, stone-ground to release full flavour.</div>
+                        <div class="product-card-footer">
+                            <div class="product-card-price">₹99 <span>/ 200g</span></div>
+                            <button class="product-add-btn" aria-label="Add to cart">+</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="product-card reveal reveal-delay-5">
+                    <div class="product-card-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1532384555842-5e3fc4e30c3e?w=500&q=80&auto=format&fit=crop"
+                            alt="Chai Masala" />
+                    </div>
+                    <div class="product-card-body">
+                        <div class="product-card-tag">Beverages</div>
+                        <div class="product-card-name">Adrak Chai Masala</div>
+                        <div class="product-card-desc">Ginger, cardamom, cinnamon, and star anise — a warming blend that
+                            transforms every cup of chai into an experience.</div>
+                        <div class="product-card-footer">
+                            <div class="product-card-price">₹89 <span>/ 50g</span></div>
+                            <button class="product-add-btn" aria-label="Add to cart">+</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== STATS ====== -->
+    <section id="stats">
+        <div class="stats-bg"></div>
+        <div class="container">
+            <div class="stats-inner">
+                <div class="stat-item reveal reveal-delay-1">
+                    <span class="stat-icon">🌾</span>
+                    <span class="stat-number" data-count="200" data-suffix="+">200+</span>
+                    <p class="stat-label">Farmer Partners</p>
+                </div>
+                <div class="stat-item reveal reveal-delay-2">
+                    <span class="stat-icon">🌶️</span>
+                    <span class="stat-number" data-count="50" data-suffix="+">50+</span>
+                    <p class="stat-label">Spice Varieties</p>
+                </div>
+                <div class="stat-item reveal reveal-delay-3">
+                    <span class="stat-icon">🏠</span>
+                    <span class="stat-number" data-count="1000000" data-suffix="+">10,00,000+</span>
+                    <p class="stat-label">Happy Homes</p>
+                </div>
+                <div class="stat-item reveal reveal-delay-4">
+                    <span class="stat-icon">🏆</span>
+                    <span class="stat-number" data-count="40" data-suffix="+">40+</span>
+                    <p class="stat-label">Years of Heritage</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== WHY US ====== -->
+    <section id="why-us">
+        <div class="container">
+            <div class="why-inner">
+                <div>
+                    <div class="section-tag reveal">Why Choose Us</div>
+                    <h2 class="section-title reveal" style="max-width:420px;">
+                        Quality You Can <span style="color:var(--gold);font-style:italic;">Taste,</span><br />
+                        Trust You Can Feel
+                    </h2>
+                    <p class="section-subtitle reveal" style="margin-bottom:40px;">
+                        From farm to your kitchen, we ensure every step of our process is rooted in integrity, science,
+                        and respect for tradition.
+                    </p>
+
+                    <div class="why-features">
+                        <div class="why-feature reveal">
+                            <span class="why-feature-icon">🌿</span>
+                            <h4>100% Natural</h4>
+                            <p>Zero artificial colors, flavors, or preservatives — ever.</p>
+                        </div>
+                        <div class="why-feature reveal reveal-delay-1">
+                            <span class="why-feature-icon">🔬</span>
+                            <h4>Lab Certified</h4>
+                            <p>Each batch is FSSAI & ISO certified for safety and purity.</p>
+                        </div>
+                        <div class="why-feature reveal reveal-delay-2">
+                            <span class="why-feature-icon">📦</span>
+                            <h4>Fresh Packaging</h4>
+                            <p>Nitrogen-flushed, airtight packs to preserve aroma and shelf life.</p>
+                        </div>
+                        <div class="why-feature reveal reveal-delay-3">
+                            <span class="why-feature-icon">🤝</span>
+                            <h4>Farmer Fair Trade</h4>
+                            <p>We pay 30% above market price to support our farming communities.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="why-image-wrap reveal-right">
+                    <img class="why-img"
+                        src="https://images.unsplash.com/photo-1606914501449-5a96b6ce24ca?w=700&q=85&auto=format&fit=crop"
+                        alt="Spice processing quality control" />
+                    <div class="why-img-overlay">
+                        <span class="why-img-overlay-icon">✅</span>
+                        <div class="why-img-overlay-text">
+                            <strong>FSSAI Certified &amp; ISO 22000:2018</strong>
+                            <span>Internationally approved food safety standards</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== TESTIMONIALS ====== -->
+    <section id="testimonials">
+        <div class="container">
+            <div class="testimonials-header reveal">
+                <div class="section-tag">Customer Reviews</div>
+                <h2 class="section-title">What Our Families Say</h2>
+                <p class="section-subtitle" style="margin:12px auto 0;">
+                    Over a million households across India trust Sample Masala for their daily cooking. Here's what they
+                    have to say.
+                </p>
+            </div>
+
+            <div class="testimonials-slider-wrap">
+                <div class="testimonials-track">
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p class="testimonial-text">"The garam masala is absolutely divine. My curries have never tasted
+                            this good. Even my mother-in-law is impressed!"</p>
+                        <div class="testimonial-author">
+                            <img class="testimonial-avatar" src="https://i.pravatar.cc/100?img=47" alt="Priya Sharma" />
+                            <div class="testimonial-author-info">
+                                <strong>Priya Sharma</strong>
+                                <span>Mumbai, Maharashtra</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p class="testimonial-text">"I've been using Sample Masala for 15 years. The quality is
+                            absolutely consistent — I can close my eyes and know it's theirs."</p>
+                        <div class="testimonial-author">
+                            <img class="testimonial-avatar" src="https://i.pravatar.cc/100?img=12" alt="Rajesh Kumar" />
+                            <div class="testimonial-author-info">
+                                <strong>Rajesh Kumar</strong>
+                                <span>Delhi, India</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p class="testimonial-text">"The Lakadong Turmeric is unlike anything I've ever used. The color,
+                            the aroma — you can tell it's something special."</p>
+                        <div class="testimonial-author">
+                            <img class="testimonial-avatar" src="https://i.pravatar.cc/100?img=29"
+                                alt="Ananya Krishnan" />
+                            <div class="testimonial-author-info">
+                                <strong>Ananya Krishnan</strong>
+                                <span>Chennai, Tamil Nadu</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p class="testimonial-text">"As a professional chef, I am extremely particular about spice
+                            quality. Sample Masala is the only brand I trust for my restaurant."</p>
+                        <div class="testimonial-author">
+                            <img class="testimonial-avatar" src="https://i.pravatar.cc/100?img=59"
+                                alt="Chef Arjun Singh" />
+                            <div class="testimonial-author-info">
+                                <strong>Chef Arjun Singh</strong>
+                                <span>Bengaluru, Karnataka</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p class="testimonial-text">"We switched to Sample Masala two years ago and the difference was
+                            instantly noticeable in our biryani. Truly unbeatable!"</p>
+                        <div class="testimonial-author">
+                            <img class="testimonial-avatar" src="https://i.pravatar.cc/100?img=36" alt="Fatima Begum" />
+                            <div class="testimonial-author-info">
+                                <strong>Fatima Begum</strong>
+                                <span>Hyderabad, Telangana</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-controls">
+                <button class="testimonial-btn" id="prev-btn" aria-label="Previous">←</button>
+                <div class="testimonial-dots">
+                    <div class="testimonial-dot active"></div>
+                    <div class="testimonial-dot"></div>
+                    <div class="testimonial-dot"></div>
+                    <div class="testimonial-dot"></div>
+                    <div class="testimonial-dot"></div>
+                </div>
+                <button class="testimonial-btn" id="next-btn" aria-label="Next">→</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== GALLERY ====== -->
+    <section id="gallery">
+        <div class="container">
+            <div class="gallery-header reveal">
+                <div class="section-tag">Our World</div>
+                <h2 class="section-title">From Farm to Your Kitchen</h2>
+                <p class="section-subtitle" style="margin:12px auto 0;">
+                    A visual journey through the vibrant world of spices — from fertile farms to perfectly sealed jars.
+                </p>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item reveal">
+                    <img src="https://images.unsplash.com/photo-1566373573587-88c6e5f57e69?w=600&q=80&auto=format&fit=crop"
+                        alt="Spice farm landscape" />
+                    <div class="gallery-overlay"><span class="gallery-overlay-icon">🔍</span></div>
+                </div>
+                <div class="gallery-item reveal reveal-delay-1">
+                    <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&q=80&auto=format&fit=crop"
+                        alt="Harvesting spices" />
+                    <div class="gallery-overlay"><span class="gallery-overlay-icon">🔍</span></div>
+                </div>
+                <div class="gallery-item reveal reveal-delay-2">
+                    <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&q=80&auto=format&fit=crop"
+                        alt="Delicious meal with masala" />
+                    <div class="gallery-overlay"><span class="gallery-overlay-icon">🔍</span></div>
+                </div>
+                <div class="gallery-item reveal reveal-delay-3">
+                    <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=700&q=80&auto=format&fit=crop"
+                        alt="Indian food spread" />
+                    <div class="gallery-overlay"><span class="gallery-overlay-icon">🔍</span></div>
+                </div>
+                <div class="gallery-item reveal reveal-delay-4">
+                    <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=400&q=80&auto=format&fit=crop"
+                        alt="Cooking with spices" />
+                    <div class="gallery-overlay"><span class="gallery-overlay-icon">🔍</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== NEWSLETTER ====== -->
+    <section id="newsletter">
+        <div class="newsletter-bg"></div>
+        <div class="container">
+            <div class="newsletter-inner reveal">
+                <span class="newsletter-icon">📩</span>
+                <h2>Get Exclusive Recipes &amp; Offers</h2>
+                <p>Join over 50,000 home cooks who receive secret recipes, early product launches, and special discounts
+                    directly in their inbox.</p>
+                <form class="newsletter-form">
+                    <input class="newsletter-input" type="email" placeholder="Enter your email address" required />
+                    <button type="submit" class="btn btn-white">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== FOOTER ====== -->
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Brand -->
+                <div class="footer-brand">
+                    <div class="nav-logo" style="margin-bottom:16px;">
+                        <div class="nav-logo-icon"
+                            style="background:linear-gradient(135deg,var(--gold),var(--gold-dark));">🌶️</div>
+                        <div class="nav-logo-text">
+                            <span style="color:white;">Sample Masala</span>
+                            <span style="color:var(--gold);">Company</span>
+                        </div>
+                    </div>
+                    <p class="footer-desc">
+                        Bringing the authentic taste of India's finest spices to your kitchen since 1985. Pure, natural,
+                        and bursting with flavour.
+                    </p>
+                    <div class="footer-socials">
+                        <a href="#" class="footer-social-btn" aria-label="Facebook">𝓕</a>
+                        <a href="#" class="footer-social-btn" aria-label="Instagram">📸</a>
+                        <a href="#" class="footer-social-btn" aria-label="Twitter">𝕏</a>
+                        <a href="#" class="footer-social-btn" aria-label="YouTube">▶</a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <div class="footer-links">
+                        <a href="#about">About Us</a>
+                        <a href="#products">Products</a>
+                        <a href="#why-us">Why Us</a>
+                        <a href="#gallery">Gallery</a>
+                        <a href="#testimonials">Reviews</a>
+                        <a href="#newsletter">Newsletter</a>
+                    </div>
+                </div>
+
+                <!-- Products -->
+                <div class="footer-col">
+                    <h4>Our Products</h4>
+                    <div class="footer-links">
+                        <a href="#products">Garam Masala</a>
+                        <a href="#products">Turmeric Powder</a>
+                        <a href="#products">Chili Powder</a>
+                        <a href="#products">Biryani Masala</a>
+                        <a href="#products">Dhania Jeera</a>
+                        <a href="#products">Chai Masala</a>
+                    </div>
+                </div>
+
+                <!-- Contact -->
+                <div class="footer-col">
+                    <h4>Contact Us</h4>
+                    <div class="footer-contact-item">
+                        <span class="footer-contact-icon">📍</span>
+                        <span class="footer-contact-text">Sample Masala Co., Spice Market Road, Chennai – 600001, Tamil
+                            Nadu</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <span class="footer-contact-icon">📞</span>
+                        <span class="footer-contact-text">+91 98765 43210</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <span class="footer-contact-icon">✉️</span>
+                        <span class="footer-contact-text">hello@samplemasala.in</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <span class="footer-contact-icon">🕐</span>
+                        <span class="footer-contact-text">Mon – Sat: 9:00 AM – 6:00 PM</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2025 Sample Masala Company. All rights reserved. Made with ❤️ in India.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Refund Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button id="back-to-top" aria-label="Back to top">↑</button>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
